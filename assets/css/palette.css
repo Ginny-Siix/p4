@@ -1,0 +1,288 @@
+.parent_fleche {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent_fleche a {
+    text-decoration: none;
+    color: #353535
+}
+
+.fleche {
+    position: absolute;
+    left: 11%;
+    right: 22.67%;
+    position: absolute;
+    top: 23.33%;
+}
+
+.img_fond {
+    position: relative;
+    height: 161px;
+}
+
+.img_fond img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    background: #F7F7F7;
+    border-radius: 35px 35px 0 0;
+    margin-top: 51px;
+    position: sticky;
+}
+
+main h2 {
+    font-family: 'Shrikhand';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    margin: 32px 17px 0 17px;
+}
+
+.titre_coeur_menu {
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+.titre_coeur_menu i {
+    position: absolute;
+    margin-left: 84%;
+    margin-top: 36px;
+}
+
+.entrees_containers,
+.plats_containers,
+.desserts_containers {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 37px 13px 52px 13px;
+    gap: 12px;
+}
+
+.entrees_containers h3,
+.plats_containers h3,
+.desserts_containers h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+    line-height: 19px;
+    text-transform: uppercase;
+    /* border-bottom: 3px solid #99E2D0; */
+}
+
+.span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #99E2D0;
+}
+
+/* animation arrivée en escalier des catégories  */
+.entrees_card {
+    animation: escaliers 1s;
+}
+.plats_card {
+    animation: escaliers 2s;
+}
+.desserts_card {
+    animation: escaliers 3s;
+}
+
+@keyframes escaliers {
+    00% {
+        opacity: 0.1;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.entrees_card,
+.plats_card,
+.desserts_card {
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+    padding: 0px;
+    isolation: isolate;
+    width: 100%;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    border-radius: 15.0431px;
+    flex: none;
+    flex-grow: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.entrees_card h4,
+.plats_card h4,
+.desserts_card h4 {
+    padding: 12px 48px 0px 15px;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.entrees_card_texte,
+.plats_card_texte,
+.desserts_card_texte {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.entrees_card_texte p,
+.plats_card_texte p,
+.desserts_card_texte p {
+    height: 19px;
+    padding: 5px 0px 12px 0px;
+    background: #FFFFFF;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.0431px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* le prix que ce decale */
+.prix {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.0431px;
+    line-height: 18px;
+    display: flex;
+    text-align: center;
+    color: #353535;
+    transition: all 0.5s;
+    right: 20px;
+}
+
+.entrees_card:hover .prix {
+    transform: translateX(-80px);
+}
+
+.plats_card:hover .prix {
+    transform: translateX(-80px);
+}
+
+.desserts_card:hover .prix {
+    transform: translateX(-80px);
+}
+
+/* animation de check */
+.check {
+    position: absolute;
+    right: 0px;
+    width: 0px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    font-size: 0;
+}
+
+.entrees_card:hover .check {
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    font-size: 20px;
+    color: #dce7e4;
+    background-color: var(--vert-clair);
+}
+
+.plats_card:hover .check {
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    font-size: 20px;
+    color: #dcebe7;
+    background-color: var(--vert-clair);
+}
+
+.logo {
+    border-radius: 50%;
+
+}
+
+.desserts_card:hover .check {
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    background-color: var(--vert-clair);
+}
+
+/* la boite du boutton*/
+.boutton_commander {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 57px;
+}
+
+/* juste le boutton avec le texte */
+.boutton_commander button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    height: 50px;
+    width: 218px;
+    border-radius: 25px;
+    border: none;
+}
+
+.boutton_commander button:hover {
+    opacity: 0.9;
+}
+
+/* juste le texte du boutton */
+.boutton_commander button a {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    height: 24px;
+    width: 180px;
+}

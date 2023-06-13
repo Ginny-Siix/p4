@@ -1,0 +1,124 @@
+footer {
+    background-color: var(--grey);
+    color: white;
+    height: 124px;
+    border-radius: 0px;
+    padding: 22px 25px 22px 25px;
+    /* bottom: -1073px; */
+    position: relative;
+    border-radius: 0px;
+
+}
+
+footer h5 {
+    font-family: 'Shrikhand';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    display: flex;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.part1 {
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0%;
+    margin: 16px 0 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+ul.part1 li {
+    display: flex;
+    gap: 10px;
+}
+
+ul.part2 {
+    /* color: blue; */
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* ecran inferieur à 1024px */
+/***********************************************************************************/
+@media screen and (min-width: 767px) {
+
+footer h5 {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Shrikhand';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    display: flex;
+}
+
+footer article {
+    align-items: center;
+    justify-content: center;
+}
+
+ul.part1{
+    margin: 16px 0 0 36px;
+}
+
+}
+
+/* ****************************************************************************************************************** */
+/* Desktop */
+@media (min-width: 1440px) {
+
+footer {
+    position: relative;
+    padding: 22px 25px 22px 25px
+}
+
+footer h5 {
+    text-align: left;
+    justify-content: flex-end;
+    position: absolute;
+    left: 0%;
+    right: 1.02%;
+    top: 0%;
+    bottom: 0%;
+}
+
+footer article { 
+    flex-direction: row;
+    display: flex;
+    align-items: baseline;
+    margin-left: 604px;
+    margin-top: 37px;
+}
+
+ul.part1 {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+}
+
+ul.part2 {
+    flex-direction: row;
+    display: flex;
+    padding: 0%;
+    margin: 16px 0px 0px 25px;
+}
+}
+

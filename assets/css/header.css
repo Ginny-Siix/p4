@@ -1,0 +1,21 @@
+header {
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Shrikhand", cursive;
+  box-shadow: 0px 2px 4px 0px #00000026;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+/* Tablette */
+@media (min-width: 768px) {
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+}

@@ -1,0 +1,100 @@
+.explorer_restaurants {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.icon_text_localisation {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    gap: 17px;
+}
+
+.explorer_restaurants h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px
+}
+
+.explorer_restaurants p {
+    font-family: 'Roboto';
+    color: var(--grey);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0 0 27px 0;
+}
+
+/* la boite du boutton*/
+.boutton_explorer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 57px;
+}
+
+.boutton_explorer:hover {
+    opacity: 0.6;
+}
+
+
+/* juste le boutton avec le texte */
+.explorer_restaurants button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    height: 50px;
+    width: 218px;
+    border-radius: 25px;
+    border: none;
+}
+
+ /* juste le texte du boutton */
+.explorer_restaurants button a {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    height: 24px;
+    width: 180px;
+}
+
+/* ****************************************************************************************************************** */
+/* Desktop */
+@media (min-width: 1440px) {
+
+    .explorer_restaurants h1 {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .explorer_restaurants p{
+        margin: 10px 0 27px 0;
+    }
+
+    .boutton_explorer {
+        margin-bottom: 0;
+    }
+}

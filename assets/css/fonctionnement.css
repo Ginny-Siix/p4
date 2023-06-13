@@ -1,0 +1,121 @@
+.fonctionnement_container {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  margin-right: 15px;
+  margin-bottom: 68px;
+  height: 433px;
+}
+
+.fonctionnement_container h4 {
+  /* color: pink; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 48px 0 26px 20px;
+}
+
+.fonctionnement_container article {
+  /* background-color: blue; */
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#choix,
+#compos,
+#manger {
+  height: 72px;
+  border-style: hidden;
+  background: #f7f7f7;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 20px 0 32px;
+}
+
+.numero p {
+  background: #9356dc;
+  width: 24px;
+  border-radius: 50%;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+  /* position: absolute; */
+  /* -- pour le bloquer dans la zone */
+  left: 0;
+  top: 0;
+  transform: translate(-50%, 100%);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.1818px;
+  line-height: 17px;
+}
+
+.icone_texte {
+  display: flex;
+  gap: 30px;
+}
+
+.icone {
+  margin-left: 30px;
+  color: #7e7e7e;
+}
+
+.icone_manger {
+  color: #9356dc;
+  margin-left: 30px;
+}
+
+.icone_texte p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+/* ************************************************** */
+/* ecran inferieur à 1024px */
+/*****************************************/
+@media screen and (min-width: 767px) {
+
+  #choix,
+  #compos,
+  #manger {
+    margin: 0 2%;
+  }
+
+  .fonctionnement_container {
+    flex-direction: column;
+    width: 95%;
+    margin-right: 0;
+    padding-left: 5%;
+  }
+
+  .fonctionnement_container article {
+  }
+}
+
+/* ****************************************************************/
+/* écran supérieur à 1024px*/
+/*************************************************** */
+@media (min-width: 1024px) {
+
+  .fonctionnement_container{
+    padding-bottom: 86px;
+    height: 100%;
+  }
+
+  .fonctionnement_container article{
+    flex-direction: row;
+  }
+}
