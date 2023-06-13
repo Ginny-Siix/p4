@@ -54,6 +54,11 @@ ul.part2 {
     line-height: 19px;
 }
 
+ul.part2 li a {
+    text-decoration: none;
+    color: white;
+}
+
 /* ecran inferieur à 1024px */
 /***********************************************************************************/
 @media screen and (min-width: 767px) {
@@ -92,12 +97,9 @@ footer {
 
 footer h5 {
     text-align: left;
-    justify-content: flex-end;
     position: absolute;
-    left: 0%;
     right: 1.02%;
-    top: 0%;
-    bottom: 0%;
+    top: 45%;
 }
 
 footer article { 
@@ -119,6 +121,10 @@ ul.part2 {
     display: flex;
     padding: 0%;
     margin: 16px 0px 0px 25px;
+}
+
+ul.part2 li a {
+    margin-left: 15px;
 }
 }
 
