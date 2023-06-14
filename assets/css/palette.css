@@ -32,7 +32,11 @@
 .main-restaurant {
     width: 100%;
     margin: auto;
-    height: 1142px;
+    height: 1145px;
+}
+
+.main-restaurant-note {
+    height: 1220px;
 }
 
 section {
@@ -300,7 +304,7 @@ main h2 {
 
     .main-section {
         width: 70%;
-        height: 1203px;
+        height: 1265px;
         transform: translateY(-40px);
         margin: auto;
     }
