@@ -1,7 +1,6 @@
 #restaurants {
   display: flex;
   flex-direction: column;
-  /* margin: 54px 15px 66px 15px; */
 }
 
 #restaurants h4 {
@@ -117,7 +116,7 @@
 
 /* ecran inferieur à 1024px supérieur à 768px */
 /***********************************************************************************/
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 
   #restaurants_containers {
     display: grid;
@@ -146,8 +145,8 @@
 }
 
 /* ****************************************************************************************************************** */
-/* Desktop  écran superieur à 1025px */
-@media (min-width: 1025px) {
+/* Desktop  écran superieur à 1024px */
+@media (min-width: 1024px) {
 
   #restaurants h4{
     padding-left: 61px;

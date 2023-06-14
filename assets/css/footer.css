@@ -4,10 +4,8 @@ footer {
     height: 124px;
     border-radius: 0px;
     padding: 22px 25px 22px 25px;
-    /* bottom: -1073px; */
     position: relative;
     border-radius: 0px;
-
 }
 
 footer h5 {
@@ -43,7 +41,6 @@ ul.part1 li {
 }
 
 ul.part2 {
-    /* color: blue; */
     list-style-type: none;
     padding: 0%;
     margin: 0;
@@ -60,71 +57,70 @@ ul.part2 li a {
 }
 
 /* ecran inferieur à 1024px */
-/***********************************************************************************/
+/***********************************************************************************************************/
 @media screen and (min-width: 767px) {
 
-footer h5 {
-    align-items: center;
-    justify-content: center;
-    font-family: 'Shrikhand';
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: left;
-    display: flex;
-}
+    footer h5 {
+        align-items: center;
+        justify-content: center;
+        font-family: 'Shrikhand';
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        display: flex;
+    }
 
-footer article {
-    align-items: center;
-    justify-content: center;
-}
+    footer article {
+        align-items: center;
+        justify-content: center;
+    }
 
-ul.part1{
-    margin: 16px 0 0 36px;
-}
+    ul.part1 {
+        margin: 16px 0 0 36px;
+    }
 
 }
 
 /* ****************************************************************************************************************** */
 /* Desktop */
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
 
-footer {
-    position: relative;
-    padding: 22px 25px 22px 25px
-}
+    footer {
+        position: relative;
+        padding: 22px 25px 22px 25px
+    }
 
-footer h5 {
-    text-align: left;
-    position: absolute;
-    right: 1.02%;
-    top: 45%;
-}
+    footer h5 {
+        text-align: left;
+        position: absolute;
+        right: 1.02%;
+        top: 45%;
+    }
 
-footer article { 
-    flex-direction: row;
-    display: flex;
-    align-items: baseline;
-    margin-left: 604px;
-    margin-top: 37px;
-}
+    footer article {
+        flex-direction: row;
+        display: flex;
+        align-items: baseline;
+        margin-left: 604px;
+        margin-top: 37px;
+    }
 
-ul.part1 {
-    flex-direction: row;
-    display: flex;
-    gap: 10px;
-}
+    ul.part1 {
+        flex-direction: row;
+        display: flex;
+        gap: 10px;
+    }
 
-ul.part2 {
-    flex-direction: row;
-    display: flex;
-    padding: 0%;
-    margin: 16px 0px 0px 25px;
-}
+    ul.part2 {
+        flex-direction: row;
+        display: flex;
+        padding: 0%;
+        margin: 16px 0px 0px 25px;
+    }
 
-ul.part2 li a {
-    margin-left: 15px;
+    ul.part2 li a {
+        margin-left: 15px;
+    }
 }
-}
-
