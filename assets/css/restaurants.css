@@ -115,12 +115,9 @@
   color: #000000;
 }
 
-/* ecran inferieur à 1024px */
+/* ecran inferieur à 1024px supérieur à 768px */
 /***********************************************************************************/
 @media screen and (min-width: 767px) {
-
-  #restaurants {
-  }
 
   #restaurants_containers {
     display: grid;
@@ -134,6 +131,7 @@
 
   #restaurants h4 {
     width: auto;
+    margin-left: 48px;
   }
 
   .restau_tout {
@@ -148,8 +146,8 @@
 }
 
 /* ****************************************************************************************************************** */
-/* Desktop */
-@media (min-width: 1440px) {
+/* Desktop  écran superieur à 1025px */
+@media (min-width: 1025px) {
 
   #restaurants h4{
     padding-left: 61px;
@@ -167,6 +165,7 @@
 
   #restaurants h4 {
     width: auto;
+    margin-left: 0;
   }
 
   .restau_tout {
