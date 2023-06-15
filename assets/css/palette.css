@@ -21,13 +21,22 @@
 
 .img_fond {
     position: relative;
-    height: 161px;
 }
 
 .img_fond img {
     width: 100%;
     height: 310px;
     object-fit: cover;
+}
+
+.main-restaurant {
+    width: 100%;
+    margin: auto;
+    height: 1145px;
+}
+
+.main-restaurant-note {
+    height: 1220px;
 }
 
 section {
@@ -86,7 +95,6 @@ main h2 {
     width: 100%;
     line-height: 19px;
     text-transform: uppercase;
-    /* border-bottom: 3px solid #99E2D0; */
 }
 
 .span {
@@ -151,6 +159,8 @@ main h2 {
     flex-direction: row;
     padding: 0 15px;
     justify-content: space-between;
+    text-overflow: ellipsis;
+
 }
 
 .entrees_card_texte p,
@@ -186,14 +196,20 @@ main h2 {
 
 .entrees_card:hover .prix {
     transform: translateX(-80px);
+    text-overflow: ellipsis;
+
 }
 
 .plats_card:hover .prix {
     transform: translateX(-80px);
+    text-overflow: ellipsis;
+
 }
 
 .desserts_card:hover .prix {
     transform: translateX(-80px);
+    text-overflow: ellipsis;
+
 }
 
 /* animation de check */
@@ -208,6 +224,8 @@ main h2 {
     align-items: center;
     transition: all 0.5s;
     font-size: 0;
+    text-overflow: ellipsis;
+
 }
 
 .entrees_card:hover .check {
@@ -216,6 +234,7 @@ main h2 {
     height: 100%;
     font-size: 20px;
     color: #dce7e4;
+    text-overflow: ellipsis;
     background-color: var(--vert-clair);
 }
 
@@ -226,6 +245,8 @@ main h2 {
     font-size: 20px;
     color: #dcebe7;
     background-color: var(--vert-clair);
+    text-overflow: ellipsis;
+
 }
 
 .logo {
@@ -240,6 +261,8 @@ main h2 {
     font-size: 20px;
     color: white;
     background-color: var(--vert-clair);
+    text-overflow: ellipsis;
+
 }
 
 /* la boite du boutton*/
@@ -285,4 +308,23 @@ main h2 {
     line-height: 19px;
     height: 24px;
     width: 180px;
+}
+/* ********************************************************************************************************** */
+@media (min-width: 1024px) {
+
+    .main-restaurant {
+        height: 1160px;
+    }
+
+    .main-section {
+        width: 70%;
+        height: 1265px;
+        transform: translateY(-40px);
+        margin: auto;
+    }
+
+    .boutton_commander {
+        margin-bottom: 0;
+        margin-top: 67px;
+    }
 }

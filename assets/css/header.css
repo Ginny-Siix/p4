@@ -12,10 +12,11 @@ header h1 {
   font-size: 30px;
 }
 
-/* Tablette */
+/* Tablette 0*/
 @media (min-width: 768px) {
 }
 
 /* Desktop */
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
 }
+/* <!-- 15/06/23 --> */
