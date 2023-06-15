@@ -98,17 +98,18 @@
   }
 }
 
-/* *******************************************************************************************/
+/* *********************************************************************1**********************/
 /* écran supérieur à 1024px*/
 /*************************************************** */
 @media (min-width: 1024px) {
 
-  .fonctionnement_container{
+  .fonctionnement_container {
     padding-bottom: 86px;
     height: 100%;
   }
 
-  .fonctionnement_container article{
+  .fonctionnement_container article {
     flex-direction: row;
   }
 }
+/* <!-- 15/06/23 --> */
