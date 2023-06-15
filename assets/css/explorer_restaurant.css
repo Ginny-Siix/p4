@@ -64,7 +64,7 @@
     border: none;
 }
 
- /* juste le texte du boutton */
+/* juste le texte du boutton */
 .explorer_restaurants button a {
     color: white;
     display: flex;
@@ -81,16 +81,16 @@
     width: 180px;
 }
 
-/* ****************************************************************************************************************** */
+/* *******************************************************************************************:*********************** */
 /* Desktop */
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
 
     .explorer_restaurants h1 {
         font-size: 40px;
         line-height: 47px;
     }
 
-    .explorer_restaurants p{
+    .explorer_restaurants p {
         margin: 10px 0 27px 0;
     }
 
@@ -98,3 +98,4 @@
         margin-bottom: 0;
     }
 }
+/* <!-- 15/06/23 --> */
