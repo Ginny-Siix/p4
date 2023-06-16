@@ -65,7 +65,7 @@
 }
 
 /* juste le texte du boutton */
-.explorer_restaurants button a {
+.explorer_restaurants button p {
     color: white;
     display: flex;
     align-items: center;
