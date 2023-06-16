@@ -293,7 +293,7 @@ main h2 {
 }
 
 /* juste le texte du boutton */
-.boutton_commander button a {
+.boutton_commander button span {
     color: white;
     display: flex;
     text-align: center;
