@@ -289,7 +289,7 @@ main h2 {
 }
 
 .boutton_commander button:hover {
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 /* juste le texte du boutton */
@@ -315,7 +315,6 @@ main h2 {
     .main-restaurant {
         height: 1160px;
         width: 70%;
-
     }
 
     .main-section {
@@ -323,6 +322,22 @@ main h2 {
         height: 1265px;
         transform: translateY(-40px);
         margin: auto;
+    }
+
+    main h2 {
+        margin: 32px 17px 0px 75px;
+    }
+
+    .h2_note {
+        margin: 32px 17px 0px 213px;  
+    }
+
+    .h2_francaise {
+        margin: 32px 17px 0px 126px;  
+    }
+
+    .titre_coeur_menu i {
+        margin-left: 72%;
     }
 
     .boutton_commander {
