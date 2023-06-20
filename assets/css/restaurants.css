@@ -160,6 +160,7 @@
 
   .restaurants_card {
     width: 80%;
+    position: relative;
   }
 
   #restaurants h4 {
