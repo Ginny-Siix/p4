@@ -55,6 +55,7 @@ main h2 {
     font-size: 28px;
     line-height: 41px;
     margin: 32px 17px 0 17px;
+    text-align: center;
 }
 
 .titre_coeur_menu {
@@ -309,6 +310,8 @@ main h2 {
     height: 24px;
     width: 180px;
 }
+
+
 /* ********************************************************************************************************** */
 @media (min-width: 1024px) {
 
@@ -324,9 +327,7 @@ main h2 {
         margin: auto;
     }
 
-    main h2 {
-        margin: 32px 17px 0px 252px;
-    }
+
 
     .h2_note {
         margin: 32px 17px 0px 213px;  

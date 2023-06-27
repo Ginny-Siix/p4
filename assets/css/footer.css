@@ -79,7 +79,7 @@ ul.part2 li a {
     }
 
     ul.part1 {
-        margin: 16px 0 0 36px;
+        margin: 16px 0 0 8px;
     }
 
 }
@@ -90,7 +90,18 @@ ul.part2 li a {
 
     footer {
         position: relative;
-        padding: 22px 25px 22px 25px
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding-right: 200px;
+        height: 100px;
+    }
+
+    footer div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
     }
 
     footer h5 {
@@ -111,6 +122,8 @@ ul.part2 li a {
         flex-direction: row;
         display: flex;
         gap: 10px;
+        margin: 0;
+        padding-bottom: 30px;
     }
 
     ul.part2 {
@@ -118,7 +131,8 @@ ul.part2 li a {
         display: flex;
         padding: 0%;
         gap: 15px;
-        margin: 0 0 0 484px;
+        margin: 0;
+        padding-bottom: 30px;
     }
 
     ul.part2 li a {
