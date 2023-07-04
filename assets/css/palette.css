@@ -321,13 +321,11 @@ main h2 {
     }
 
     .main-section {
-        width: 70%;
+        width: 60%;
         height: 1265px;
         transform: translateY(-40px);
         margin: auto;
     }
-
-
 
     .h2_note {
         margin: 32px 17px 0px 213px;  
@@ -344,5 +342,9 @@ main h2 {
     .boutton_commander {
         margin-bottom: 0;
         margin-top: 67px;
+    }
+
+    .titre_coeur_menu {
+        margin-left: 103px;
     }
 }
