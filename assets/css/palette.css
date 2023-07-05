@@ -234,7 +234,7 @@ main h2 {
     width: 80px;
     height: 100%;
     font-size: 20px;
-    color: #dce7e4;
+    color: white;
     text-overflow: ellipsis;
     background-color: var(--vert-clair);
 }
@@ -244,7 +244,7 @@ main h2 {
     width: 80px;
     height: 100%;
     font-size: 20px;
-    color: #dcebe7;
+    color: white;
     background-color: var(--vert-clair);
     text-overflow: ellipsis;
 
